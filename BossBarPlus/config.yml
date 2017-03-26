@@ -1,0 +1,25 @@
+# Options for Boss Bar Color can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarColor.html
+# Options for Boss Bar Style can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/boss/BarStyle.html
+
+Metrics: true
+Smooth Animations: false
+Default Options:
+  Boss Bar Color: PURPLE
+  Boss Bar Style: SOLID
+  Enable Sound: true
+  Sound: ENTITY_ENDERDRAGON_GROWL
+Broadcast on Join:
+  Enabled: false
+  Message: '&bWelcome to My Server!'
+  Color: BLUE
+  Style: SOLID
+  Time: 10
+Announcer:
+  Enabled: false
+  Time: 20
+  Color: GREEN
+  Style: SOLID
+  Messages:
+  - Message &61
+  - Message &e2
+  - Message &b3
