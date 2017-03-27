@@ -1,0 +1,18 @@
+  default:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+schema-version: 1
+users:
+  09b3f568-e49c-4c31-9a9d-7f444d35b1ad:
+    worlds:
+      flatworld:
+        options:
+          prefix: '&f[&0Emp&4eria&f](&cKoning&f)'
+      flatroom:
+        options:
+          prefix: '&f[&4Emp&0eria&f](&cKoning&f)'
+    options:
+      name: vissen
+      prefix: '&8[&6Koning&8][&0Empire&8]&4'
