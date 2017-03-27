@@ -1,0 +1,92 @@
+Chat:
+  Variables: <Level> <Kleur> <Naam> <Baan> <WereldKleur> <Fitheid> <Chatkleur> <Rank> <Displaynaam>
+  Chat: '&3[&bLevel <Level>&3] &8[&7<Baan>&8] <Kleur><Naam>: <Chatkleur>'
+  StandaardPrefix: Burger
+  StandaardKleur: e
+  RadiusGebruiken: true
+  Radius: 20
+  Message: false
+Messages:
+  DoodGaan: '&cJe bent dood gegaan, Je fitheid is voor de volgende 24 uur 15 lager'
+  GenoegGedronken: '&cJe hebt genoeg gedronken, probeer het straks nog een keer'
+  Water: '&eJe hebt water gedronken'
+  Loon: '&3Jij hebt zojuist jouw standaard inkomen van de server ontvangen. Dit bedrag
+    was &b<Euro> <Bedrag>&3'
+  OpenSDB: '&3Jouw safety deposit box wordt geopend!'
+  Regels: "Niet griefen \n Niet hacken \n Niet cheaten"
+Title:
+  WelkomIn: 'Welkom in '
+  GegevensInladen: Je gegevens worden ingeladen
+ATM:
+  Blok: RED_SANDSTONE_STAIRS
+Wetten:
+  GrondRechten: http://bit.ly/Grondrecht2
+  VerloopRechtzaak: http://bit.ly/VerloopRechtzaak2
+LevelCheck:
+  Enabled: false
+Fitheid:
+  Standaard: 20
+  JumpBoost: true
+  Enabled: true
+Tablist:
+  PerWereld: true
+  Kleur: true
+  Format: <Kleur>
+Graycoins:
+  Naam: Graycoins
+  Command: /graycoin
+Telefoon:
+  Item: BLAZE_POWDER
+Realtime:
+  Enabled: true
+Bivac:
+  NaamChange: true
+  Item: WOOL
+Scoreboard:
+- <Wereld>
+- '                        '
+- '<Wereldkleur>Tijd:'
+- ' <Tijd>'
+- '<Wereldkleur>Temperatuur:'
+- ' <Temperatuur> C'
+- '<Wereldkleur>Banksaldo: '
+- ' <Euro> <Geld>'
+- '<Wereldkleur>Level:'
+- ' <Level>'
+- '<Wereldkleur>Fitheid: '
+- ' <Fitheid> / 140'
+PlotAdd:
+- rg flag <Plot> -w <World> interact -g NON_MEMBERS DENY
+- rg flag <Plot> -w <World> chest-acces -g NON_MEMBERS DENY
+- rg flag <Plot> -w <World> chest-access -g NON_MEMBERS DENY
+- rg flag <Plot> -w <World> block-break -g NON_MEMBERS DENY
+- rg flag <Plot> -w <World> block-place -g NON_MEMBERS DENY
+- rg flag <Plot> -w <World> USE -g MEMBERS allow
+- rg flag <Plot> -w <World> INTERACT -g MEMBERS allow
+- rg flag __global__ -w <World> pvp allow
+Prullenbak:
+  Item: DROPPER
+LevelLoon:
+  Lvlloon0: 0
+  Lvlloon1: 500
+  Lvlloon2: 750
+  Lvlloon3: 800
+  Lvlloon4: 900
+  Lvlloon5: 1000
+  Lvlloon6: 1500
+  Lvlloon7: 1750
+  Lvlloon8: 2000
+  Lvlloon9: 2000
+  Lvlloon10: 2500
+  Lvlloon11: 2750
+  Lvlloon12: 3000
+  Lvlloon13: 3250
+  Lvlloon14: 3500
+  Lvlloon15: 4500
+  Lvlloon16: 5000
+  Lvlloon17: 5000
+  Lvlloon18: 7500
+  Lvlloon19: 7500
+  Lvlloon20: 7500
+  Lvlloon21: 7500
+  Lvlloon22: 7500
