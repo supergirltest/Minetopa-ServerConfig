@@ -1,0 +1,12 @@
+STICK:
+  GeslagenMet: '&cJe hebt &4<Speler>&c geslagen met jouw knuppel&c!'
+  GeslagenDoor: '&cJe bent geslagen met een knuppel door &4<Speler>&c!'
+FERMENTED_SPIDER_EYE:
+  GeslagenMet: '&cJe hebt &4 <Speler> &c geslagen met jouw wapenstok&c!'
+  GeslagenDoor: '&cJe bent geslagen met een wapenstok door&4 <Speler>&c!'
+SPIDER_EYE:
+  GeslagenMet: '&cJe hebt &4 <Speler> &cgeslagen met jouw knuppel&c!'
+  GeslagenDoor: '&cJe bent geslagen met een knuppel door&4 <Speler> &c!'
+WOOD_SWORD:
+  GeslagenMet: '&cJe hebt &4<Speler> &cgestoken met jouw mes&c!'
+  GeslagenDoor: '&cJe bent gestoken met een mes door&4 <Speler>&c!'
